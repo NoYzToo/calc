@@ -155,7 +155,7 @@ function calc() {
                     a = res
                     output.value = a
                 }
-                if (sign == '*') {
+                if (sign == 'X') {
                     res = +a * +b;
                     a = res
                     output.value = a
@@ -180,15 +180,16 @@ function calc() {
                     output.value = a
                 }
                 if (sign == 'X¹') {
+                    res = +a
                     for (let i = 0; i < +b; i++) {
-                        res = +a * +a
+                        res = res * +a
                     }
                     a = res
                     output.value = a
                 }
 
 
-
+                a = '';
                 b = '';
                 sign = '';
                 res = '';
