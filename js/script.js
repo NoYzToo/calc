@@ -31,7 +31,7 @@ function calc() {
 
 
 
-        if (output.value.length < 10) {
+        if (output.value.length < 9) {
 
             if (event.target.classList.contains('integers') && b == '' && sign == '') {
                 a += event.target.innerText
@@ -189,7 +189,7 @@ function calc() {
                 }
 
 
-                a = '';
+                // a = '';
                 b = '';
                 sign = '';
                 res = '';
