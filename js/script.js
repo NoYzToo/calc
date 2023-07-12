@@ -190,9 +190,9 @@ function calc() {
 
 
                 // a = '';
-                b = '';
-                sign = '';
-                res = '';
+                // b = '';
+                // sign = '';
+                // res = '';
             }
 
 
